@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>First name: <strong data-bind="text:firstName">todo</strong></p>
+    <p>Last name: <strong data-bind="text:age">todo</strong></p>
+
+    <p>First name: <input data-bind="value:firstName"></p>
+    <p>age: <input data-bind="value:age"></p>
+    <p>fullName: <strong data-bind="text:fullName">todo</strong></p>
+
+    <butto data-bind="click:capitalizeLastName">click</button>
+
+    <script src="knockout-3.5.1.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
