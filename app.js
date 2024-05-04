@@ -26,7 +26,7 @@ ko.applyBindings(new AppViewModel());*/
 
 
 //capitalizeLastName 
-function AppViewModel() {
+/*function AppViewModel() {
     this.firstName =ko.observable( "Bert");
     this.age =ko.observable("Bertington");
     this.fullName =ko.computed(function(){
@@ -40,4 +40,11 @@ function AppViewModel() {
 }
 
 
-ko.applyBindings(new AppViewModel());
+ko.applyBindings(new AppViewModel());*/
+
+
+let obj={
+    firstName:'zara'
+};
+
+ko.applyBindings(obj)
